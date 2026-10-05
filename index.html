@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PodoStudio — современная студия подологии. Бережный уход, профессиональная обработка стоп и ногтей.">
+  <title>PodoStudio — студия подологии</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="#" class="brand">
+      <span class="brand__name">Podo<span>studio</span></span>
+      <span class="brand__line">PODOLOGY · CARE · BEAUTY</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#about">О студии</a>
+      <a href="#services">Услуги</a>
+      <a href="#works">Работы</a>
+      <a href="#team">Специалисты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <a class="header__cta" href="#contacts">Записаться <span>↗</span></a>
+    <button class="menu" aria-label="Меню" aria-expanded="false">
+      <i></i><i></i>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero__pattern"></div>
+    <div class="container hero__grid">
+      <div class="hero__copy reveal">
+        <div class="eyebrow"><span></span> Студия подологии</div>
+        <h1>Забота о стопах<br><em>с профессиональным</em><br>подходом.</h1>
+        <p>Подология без лишней суеты: аккуратная работа, внимание к деталям и комфорт на каждом этапе.</p>
+        <div class="hero__buttons">
+          <a class="button button--dark" href="#contacts">Записаться на приём <span>→</span></a>
+          <a class="button button--outline" href="#services">Услуги</a>
+        </div>
+        <div class="hero__facts">
+          <div><strong>01</strong><span>Бережная<br>обработка</span></div>
+          <div><strong>02</strong><span>Индивидуальный<br>подход</span></div>
+          <div><strong>03</strong><span>Комфортная<br>атмосфера</span></div>
+        </div>
+      </div>
+
+      <div class="hero__media reveal">
+        <div class="image image--hero">
+          <div class="image__label"><b>PODO</b><small>Здесь будет фото студии</small></div>
+        </div>
+        <div class="hero__badge"><span>✦</span><div><b>STEP BY STEP</b><small>к здоровым стопам</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro" id="about">
+    <div class="container intro__grid">
+      <div class="section-number">01<br><span>ABOUT</span></div>
+      <div class="intro__main reveal">
+        <p class="kicker">PodoStudio</p>
+        <h2>Когда здоровье<br>становится <em>привычкой.</em></h2>
+        <p class="lead">Мы создаём пространство, где профессиональная подология сочетается с эстетикой, спокойствием и вниманием к каждому клиенту.</p>
+        <div class="intro__details">
+          <p>Здесь можно разместить настоящее описание студии: опыт, философию, специализацию и преимущества.</p>
+          <a class="underlink" href="#contacts">Познакомиться со студией <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-top reveal">
+        <div>
+          <div class="kicker">02 / Услуги</div>
+          <h2>Решения для<br><em>здоровья стоп</em></h2>
+        </div>
+        <p>Карточки можно наполнить реальным прайсом и услугами PodoStudio.</p>
+      </div>
+
+      <div class="service-list">
+        <article class="service reveal">
+          <span class="service__num">01</span>
+          <div class="service__symbol">◌</div>
+          <div class="service__content">
+            <h3>Обработка стоп</h3>
+            <p>Профессиональный уход за кожей стоп, удаление излишнего ороговения и работа с проблемными зонами.</p>
+          </div>
+          <div class="service__meta"><span>от ХХ BYN</span><a href="#contacts">Подробнее →</a></div>
+        </article>
+
+        <article class="service service--dark reveal">
+          <span class="service__num">02</span>
+          <div class="service__symbol">○</div>
+          <div class="service__content">
+            <h3>Вросший ноготь</h3>
+            <p>Бережная обработка проблемной зоны и подбор подходящего способа дальнейшего ухода.</p>
+          </div>
+          <div class="service__meta"><span>от ХХ BYN</span><a href="#contacts">Подробнее →</a></div>
+        </article>
+
+        <article class="service reveal">
+          <span class="service__num">03</span>
+          <div class="service__symbol">⌁</div>
+          <div class="service__content">
+            <h3>Ногти и эстетика</h3>
+            <p>Аккуратная обработка ногтей и эстетический уход для ухоженного вида стоп.</p>
+          </div>
+          <div class="service__meta"><span>от ХХ BYN</span><a href="#contacts">Подробнее →</a></div>
+        </article>
+
+        <article class="service reveal">
+          <span class="service__num">04</span>
+          <div class="service__symbol">+</div>
+          <div class="service__content">
+            <h3>Консультация</h3>
+            <p>Осмотр, рекомендации и индивидуальный план ухода с учётом особенностей клиента.</p>
+          </div>
+          <div class="service__meta"><span>ХХ минут</span><a href="#contacts">Записаться →</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+    <div class="container">
+      <div class="section-top reveal">
+        <div>
+          <div class="kicker">03 / Работы</div>
+          <h2>Результат,<br><em>который видно</em></h2>
+        </div>
+        <p>Здесь отлично работает настоящая галерея «до / после» или фотографии кабинета и процедур.</p>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery__item gallery__item--big image"><div class="image__label"><b>01</b><small>Фото работы / до и после</small></div></div>
+        <div class="gallery__item image"><div class="image__label"><b>02</b><small>Фото процедуры</small></div></div>
+        <div class="gallery__item image"><div class="image__label"><b>03</b><small>Фото студии</small></div></div>
+        <div class="gallery__item image"><div class="image__label"><b>04</b><small>Фото результата</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="approach">
+    <div class="container approach__grid">
+      <div class="approach__visual reveal">
+        <div class="circle">PODO<br><span>STUDIO</span></div>
+      </div>
+      <div class="approach__copy reveal">
+        <div class="kicker">Почему PodoStudio</div>
+        <h2>Не просто процедура.<br><em>Системный уход.</em></h2>
+        <div class="points">
+          <div><b>01</b><span><strong>Чистота и безопасность</strong><small>Отдельный блок для информации о стерилизации и стандартах работы.</small></span></div>
+          <div><b>02</b><span><strong>Опыт специалистов</strong><small>Здесь можно рассказать о квалификации мастеров и обучении.</small></span></div>
+          <div><b>03</b><span><strong>Индивидуальные рекомендации</strong><small>После процедуры клиент понимает, что делать дальше.</small></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team" id="team">
+    <div class="container">
+      <div class="kicker">04 / Команда</div>
+      <div class="team__head reveal">
+        <h2>Специалисты,<br><em>которым доверяют</em></h2>
+        <p>Добавим реальные фотографии, имена, специализацию и опыт каждого мастера.</p>
+      </div>
+      <div class="team__grid">
+        <article class="person reveal"><div class="person__photo image"><span>PHOTO 01</span></div><h3>Имя Фамилия</h3><p>Подолог · ХХ лет опыта</p></article>
+        <article class="person reveal"><div class="person__photo image"><span>PHOTO 02</span></div><h3>Имя Фамилия</h3><p>Подолог · ХХ лет опыта</p></article>
+        <article class="person reveal"><div class="person__photo image"><span>PHOTO 03</span></div><h3>Имя Фамилия</h3><p>Специалист · ХХ лет опыта</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="container">
+      <div class="kicker">05 / Отзывы</div>
+      <div class="review-head reveal"><h2>Слова клиентов<br><em>важнее рекламы.</em></h2><span>★★★★★</span></div>
+      <div class="review-grid">
+        <article class="review reveal"><div>★★★★★</div><p>«Очень приятная студия. Всё сделали быстро, аккуратно и качественно. Осталась довольна результатом.»</p><b>Имя клиента</b><small>Клиент PodoStudio</small></article>
+        <article class="review reveal"><div>★★★★★</div><p>«Специалист подробно объяснил, что делать дальше. Понравилось отношение и аккуратность работы.»</p><b>Имя клиента</b><small>Клиент PodoStudio</small></article>
+        <article class="review reveal"><div>★★★★★</div><p>«Комфортная атмосфера и профессиональный подход. Обязательно буду обращаться ещё.»</p><b>Имя клиента</b><small>Клиент PodoStudio</small></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="contacts">
+    <div class="container booking__grid">
+      <div class="booking__copy reveal">
+        <div class="kicker">06 / Запись</div>
+        <h2>Готовы сделать<br><em>первый шаг?</em></h2>
+        <p>Оставьте контакты. Администратор свяжется с вами, ответит на вопросы и подберёт удобное время.</p>
+        <div class="contact-lines">
+          <div><span>Телефон</span><b>+375 (00) 000-00-00</b></div>
+          <div><span>Адрес</span><b>г. ________, ул. __________, XX</b></div>
+          <div><span>Время работы</span><b>Пн–Вс · 09:00–20:00</b></div>
+        </div>
+      </div>
+
+      <form class="form reveal" id="form">
+        <label>Имя<input required name="name" placeholder="Ваше имя"></label>
+        <label>Телефон<input required name="phone" placeholder="+375 (00) 000-00-00"></label>
+        <label>Что вас интересует?<textarea name="message" rows="4" placeholder="Например: обработка стоп, консультация..."></textarea></label>
+        <button type="submit">Отправить заявку <span>→</span></button>
+        <small id="status"></small>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__top">
+    <div class="brand"><span class="brand__name">Podo<span>studio</span></span><span class="brand__line">PODOLOGY · CARE · BEAUTY</span></div>
+    <div><small>Адрес</small><b>г. ________, ул. __________, XX</b></div>
+    <div><small>Телефон</small><b>+375 (00) 000-00-00</b></div>
+    <div><small>Соцсети</small><b>Instagram · Telegram</b></div>
+  </div>
+  <div class="container footer__bottom"><span>© 2026 PodoStudio</span><span>Демонстрационный сайт</span></div>
+</footer>
+
+<div class="toast" id="toast">Спасибо! Демо-заявка отправлена.</div>
+<script src="script.js"></script>
+</body>
+</html>
